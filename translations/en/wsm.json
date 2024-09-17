@@ -3,7 +3,7 @@
     "$multiple_manufacturers": "Multiple manufacturers",
     "$unknown_model_e": "Electronical",
     "$unknown_model_me": "Elektromechanical",
-    "$unknown_model_mm": "Motorized"
+    "$unknown_model_mm": "Motorized",
     "$unknown_model_mh": "Hand operated",
     "$unknown_model_pc": "Compressed air driven",
     "$unknown_model_pb": "Blower driven",
