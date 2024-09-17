@@ -1,3 +1,26 @@
 {
-	"$unknown_manufacturer": "Unknown manufacturer"
+    "$unknown_manufacturer": "Unknown manufacturer",
+    "$multiple_manufacturers": "Multiple manufacturers",
+    "$unknown_model_e": "Electronical",
+    "$unknown_model_me": "Elektromechanical",
+    "$unknown_model_mm": "Motorized"
+    "$unknown_model_mh": "Hand operated",
+    "$unknown_model_pc": "Compressed air driven",
+    "$unknown_model_pb": "Blower driven",
+    "$unknown_model_t": "Typhoon",
+    "$unknown_model_u": "Siren",
+    "$condition_active": "Active",
+    "$condition_inactive": "Inactive",
+    "$condition_defect": "Defect",
+    "$condition_planned": "Planned",
+    "$condition_removed": "Removed",
+    "$condition_unknown": "Unknown",
+    "$category_electronical": "Electronical siren",
+    "$category_mechanical_electrical": "Elektromechanical siren",
+    "$category_mechanical_motorized": "Motorized siren",
+    "$category_mechanical_handoperated": "Hand operated siren",
+    "$category_pneumatical_compressor": "Compressed air driven siren",
+    "$category_pneumatical_blower": "Blower driven siren",
+    "$category_typhoon": "Typhoon",
+    "$category_unknown": "Unknown siren",
 }

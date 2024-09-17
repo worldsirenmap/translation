@@ -1,3 +1,26 @@
 {
-	"$unknown_manufacturer": "Unbekannter Hersteller"
+    "$unknown_manufacturer": "Unbekannter Hersteller",
+    "$multiple_manufacturers": "Mehrere Hersteller",
+    "$unknown_model_e": "Elektronische Sirene",
+    "$unknown_model_me": "Elektromechanische Sirene",
+    "$unknown_model_mm": "Motorbetriebene Sirene"
+    "$unknown_model_mh": "Handbetriebene Sirene",
+    "$unknown_model_pc": "Hochleistungssirene",
+    "$unknown_model_pb": "Sirene mit Lüfter",
+    "$unknown_model_t": "Typhoon",
+    "$unknown_model_u": "Sirene",
+    "$condition_active": "Aktiv",
+    "$condition_inactive": "Inaktiv",
+    "$condition_defect": "Defekt",
+    "$condition_planned": "Geplant",
+    "$condition_removed": "Demontiert",
+    "$condition_unknown": "Unbekannt",
+    "$category_electronical": "Elektronische Sirene",
+    "$category_mechanical_electrical": "Elektromechanische Sirene",
+    "$category_mechanical_motorized": "Motorbetriebene Sirene",
+    "$category_mechanical_handoperated": "Handsirene",
+    "$category_pneumatical_compressor": "Hochleistungssirene",
+    "$category_pneumatical_blower": "Sirene mit Lüfter",
+    "$category_typhoon": "Typhoon",
+    "$category_unknown": "Unbekannt",
 }
