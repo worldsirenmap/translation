@@ -45,6 +45,12 @@
         "nearby": "Nearby",
         "filter": "Filter"
       },
+	  "apps": {
+		  "filter": "Community filters",
+		  "library": "Library",
+		  "activities": "Last activities",
+		  "infos": "Information"
+	  },	  
       "filter": {
         "region": {
           "header": "Region",
