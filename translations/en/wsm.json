@@ -22,5 +22,5 @@
     "$category_pneumatical_compressor": "Compressed air driven siren",
     "$category_pneumatical_blower": "Blower driven siren",
     "$category_typhoon": "Typhoon",
-    "$category_unknown": "Unknown siren",
+    "$category_unknown": "Unknown siren"
 }
