@@ -2,7 +2,7 @@
   "data": {
     "model": {
       "unknown-E": "Electronic siren",
-      "unknown-ME": "Electromechanich siren",
+      "unknown-ME": "Electromechanic siren",
       "unknown-MM": "Motorized siren",
       "unknown-NH": "Hand operated siren",
       "unknown-PC": "Compressed air driven siren",
@@ -24,7 +24,7 @@
     },
     "category": {
       "E": "Electronic siren",
-      "ME": "Electromechanich siren",
+      "ME": "Electromechanic siren",
       "MM": "Motorized siren",
       "MH": "Hand operated siren",
       "PC": "Compressed air driven siren",
@@ -76,6 +76,7 @@
     },
     "modals": {
       "site": {
+		"title": "Siren site",
         "editmode": "Edit mode",
         "tabs": {
           "maps": "Google Maps",
