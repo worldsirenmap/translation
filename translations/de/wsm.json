@@ -1,47 +1,72 @@
 {
-    "unknown_manufacturer": "Unbekannter Hersteller",
-    "multiple_manufacturers": "Mehrere Hersteller",
-    "unknown_model_e": "Elektronische Sirene",
-    "unknown_model_me": "Elektromechanische Sirene",
-    "unknown_model_mm": "Motorbetriebene Sirene",
-    "unknown_model_mh": "Handbetriebene Sirene",
-    "unknown_model_pc": "Hochleistungssirene",
-    "unknown_model_pb": "Sirene mit Lüfter",
-    "unknown_model_t": "Typhoon",
-    "unknown_model_u": "Sirene",
-    "condition_active": "Aktiv",
-    "condition_inactive": "Inaktiv",
-    "condition_defect": "Defekt",
-    "condition_planned": "Geplant",
-    "condition_removed": "Demontiert",
-    "condition_unknown": "Unbekannt",
-    "category_electronical": "Elektronische Sirene",
-    "category_mechanical_electrical": "Elektromechanische Sirene",
-    "category_mechanical_motorized": "Motorbetriebene Sirene",
-    "category_mechanical_handoperated": "Handsirene",
-    "category_pneumatical_compressor": "Hochleistungssirene",
-    "category_pneumatical_blower": "Sirene mit Lüfter",
-    "category_typhoon": "Typhoon",
-    "category_unknown": "Unbekannt",
-	
-	"sidebar_user_anonymous": "Anonym",
-	"sidebar_user_profile": "Profil",
-	"sidebar_user_login": "Anmelden",
-	"sidebar_user_logout": "Abmelden",
-	"sidebar_nearby_tab": "In der Nähe",
-	"sidebar_filter_tab": "Filter",
-	"sidebar_filter_divider_location": "Gebiet",
-	"sidebar_filter_divider_siren": "Sirene",
-	"sidebar_filter_country": "Land",
-	"sidebar_filter_admin2": "Administrative Zone 2",
-	"sidebar_filter_admin3": "Administrative Zone 3",
-	"sidebar_filter_models": "Typ",
-	"sidebar_filter_manufacturers": "Hersteller",
-	"sidebar_filter_category": "Kategorie",
-	"sidebar_filter_condition": "Zustand",
-	"sidebar_filter_Tags": "Tags",
-	"sidebar_filter_button_showing_zero": "Keine Standorte gefunden",
-	"sidebar_filter_button_showing_one": "Zeige 1 Standort",
-	"sidebar_filter_button_showing_other": "Zeige {{count}} Standorte",
-	"sidebar_filter_button_clear": "Filter zurücksetzen"
+  "data": {
+    "model": {
+      "unknown-e": "Elektronische Sirene",
+      "unknown-me": "Elektromechanische Sirene",
+      "unknown-mm": "Motorbetriebene Sirene",
+      "unknown-mh": "Handbetriebene Sirene",
+      "unknown-pc": "Hochleistungssirene",
+      "unknown-pb": "Sirene mit Lüfter",
+      "unknown-t": "Typhoon",
+      "unknown-u": "Sirene"
+    },
+    "manufacturer": {
+      "unknown": "Unbekannter Hersteller",
+      "multiple": "Mehrere Hersteller"
+    },
+    "condition": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "defect": "Defekt",
+      "planned": "Geplant",
+      "removed": "Demontiert",
+      "unknown": "Unbekannt"
+    },
+    "category": {
+      "electronical": "Elektronische Sirene",
+      "mechanical-electrical": "Elektromechanische Sirene",
+      "mechanical-motorized": "Motorbetriebene Sirene",
+      "mechanical-handoperated": "Handbetriebene Sirene",
+      "pneumatical-compressor": "Hochleistungssirene",
+      "pneumatical-blower": "Sirene mit Lüfter",
+      "typhoon": "Typhoon",
+      "unknown": "Unbekannt"
+    }
+  },
+  "ui": {
+    "sidebar": {
+      "user": {
+        "anonymous": "Anonym",
+        "profile": "Profil",
+        "login": "Anmelden",
+        "logout": "Abmelden"
+      },
+      "tabs": {
+        "nearby": "In der Nähe",
+        "filter": "Filter"
+      },
+      "filter": {
+        "region": {
+          "header": "Region",
+          "country": "Land",
+          "admin2": "Verwaltungslevel 2",
+          "admin3": "Verwaltungslevel 3"
+        },
+        "data": {
+          "header": "Daten",
+          "model": "Typ",
+          "manufacturer": "Hersteller",
+          "category": "Kategorie",
+          "condition": "Zustand",
+          "tags": "Tags"
+        },
+        "actions": {
+          "show_zero": "Keine Standorte gefunden",
+          "show_one": "Zeige 1 Standort",
+          "show_other": "Zeige {{count}} Standorte",
+          "clear": "Filter zurücksetzen"
+        }
+      }
+    }
+  }
 }
