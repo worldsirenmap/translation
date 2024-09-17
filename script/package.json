@@ -1,0 +1,14 @@
+{
+  "name": "translations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "author": "",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "ssh2-sftp-client": "^10.0.3"
+  }
+}

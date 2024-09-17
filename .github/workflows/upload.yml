@@ -1,0 +1,24 @@
+name: Deploy translations to server
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy-siren-marker:
+    name: Deploy translations
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Prepare node.js
+        working-directory: ./script
+        run: npm install
+
+      - name: Upload files
+        working-directory: ./script
+        run: node upload.js        
+        env:
+            SFTP_HOST: ${{secrets.SFTP_HOST}}
+            SFTP_USER: ${{secrets.SFTP_USER}}
+            SFTP_PRIVATE_KEY: ${{secrets.SFTP_PRIVATE_KEY}}
