@@ -31,6 +31,7 @@ for (const dir of currentDirs) {
 console.log("Upload Translations")
 const languages = readdirSync(TRANSLATIONS_DIR, { withFileTypes: true })
     .filter(entry => entry.isDirectory())
+    .map(entry => entry.name)
 
 for (const language of languages) {
     await sftp.mkdir(TRANSLATIONS_REMOTE_PATH + language, true)
