@@ -1,36 +1,36 @@
 {
   "data": {
     "model": {
-      "unknown-e": "Electronic siren",
-      "unknown-me": "Electromechanich siren",
-      "unknown-mm": "Motorized siren",
-      "unknown-mh": "Hand operated siren",
-      "unknown-pc": "Compressed air driven siren",
-      "unknown-pb": "Blower driven siren",
-      "unknown-t": "Typhoon",
-      "unknown-u": "Unknown siren"
+      "unknown-E": "Electronic siren",
+      "unknown-ME": "Electromechanich siren",
+      "unknown-MM": "Motorized siren",
+      "unknown-NH": "Hand operated siren",
+      "unknown-PC": "Compressed air driven siren",
+      "unknown-PB": "Blower driven siren",
+      "unknown-T": "Typhoon",
+      "unknown-U": "Unknown siren"
     },
     "manufacturer": {
       "unknown": "Unknown manufacturer",
       "multiple": "Multiple manufacturer"
     },
     "condition": {
-      "active": "Active",
-      "inactive": "Inactive",
-      "defect": "Defect",
-      "planned": "Planned",
-      "removed": "Removed",
-      "unknown": "Unknown"
+      "A": "Active",
+      "D": "Defect",
+      "I": "Inactive",
+      "P": "Planned",
+      "R": "Removed",
+      "U": "Unknown"
     },
     "category": {
-      "electronical": "Electronic siren",
-      "mechanical-electrical": "Electromechanich siren",
-      "mechanical-motorized": "Motorized siren",
-      "mechanical-handoperated": "Hand operated siren",
-      "pneumatical-compressor": "Compressed air driven siren",
-      "pneumatical-blower": "Blower driven siren",
-      "typhoon": "Typhoon",
-      "unknown": "Unknown siren"
+      "E": "Electronic siren",
+      "ME": "Electromechanich siren",
+      "MM": "Motorized siren",
+      "MH": "Hand operated siren",
+      "PC": "Compressed air driven siren",
+      "PB": "Blower driven siren",
+      "T": "Typhoon",
+      "U": "Unknown siren"
     }
   },
   "ui": {
@@ -45,12 +45,12 @@
         "nearby": "Nearby",
         "filter": "Filter"
       },
-	  "apps": {
-		  "filter": "Community filters",
-		  "library": "Library",
-		  "activities": "Last activities",
-		  "infos": "Information"
-	  },	  
+      "apps": {
+        "filter": "Community filters",
+        "library": "Library",
+        "activities": "Last activities",
+        "infos": "Information"
+      },
       "filter": {
         "region": {
           "header": "Region",
@@ -72,6 +72,48 @@
           "show_other": "Show {{count}} sites",
           "clear": "Clear filter"
         }
+      }
+    },
+    "modals": {
+      "site": {
+        "editmode": "Edit mode",
+        "tabs": {
+          "maps": "Google Maps",
+          "sirens": "Sirens",
+          "photos": "Photos",
+          "notes": "Notes",
+          "changes": "Changes"
+        },
+        "sirens": {
+          "actions": {
+            "edit": "Edit siren",
+            "add": "Add new siren"
+          },
+          "edit": {
+            "type": "Siren type",
+            "type-error": "You must select a siren type",
+            "condition": "Siren condition",
+            "condition-error": "You must select a siren condition!",
+            "description": "Description",
+            "tags": "Tags",
+            "tags-error": "Tags must contain only letters and numbers!",
+            "actions": {
+              "delete": "Delete siren",
+              "ok": "Save changes",
+              "cancel": "Cancel changes"
+            }
+          },
+          "delete": {
+            "confirm": "Are you sure to delete this siren?",
+            "actions": {
+              "ok": "Delete",
+              "cancel": "Cancel"
+            }
+          }
+        },
+        "photos": {},
+        "notes": {},
+        "changes": {}
       }
     }
   }

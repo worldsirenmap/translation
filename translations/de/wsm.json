@@ -1,36 +1,36 @@
 {
   "data": {
     "model": {
-      "unknown-e": "Elektronische Sirene",
-      "unknown-me": "Elektromechanische Sirene",
-      "unknown-mm": "Motorbetriebene Sirene",
-      "unknown-mh": "Handbetriebene Sirene",
-      "unknown-pc": "Hochleistungssirene",
-      "unknown-pb": "Sirene mit Lüfter",
-      "unknown-t": "Typhoon",
-      "unknown-u": "Sirene"
+      "unknown-E": "Elektronische Sirene",
+      "unknown-ME": "Elektromechanische Sirene",
+      "unknown-MM": "Motorbetriebene Sirene",
+      "unknown-MH": "Handbetriebene Sirene",
+      "unknown-PC": "Hochleistungssirene",
+      "unknown-PB": "Sirene mit Lüfter",
+      "unknown-T": "Typhoon",
+      "unknown-U": "Sirene"
     },
     "manufacturer": {
       "unknown": "Unbekannter Hersteller",
       "multiple": "Mehrere Hersteller"
     },
     "condition": {
-      "active": "Aktiv",
-      "inactive": "Inaktiv",
-      "defect": "Defekt",
-      "planned": "Geplant",
-      "removed": "Demontiert",
-      "unknown": "Unbekannt"
+      "A": "Aktiv",
+      "D": "Defekt",
+      "I": "Inaktiv",
+      "P": "Geplant",
+      "R": "Demontiert",
+      "U": "Unbekannt"
     },
     "category": {
-      "electronical": "Elektronische Sirene",
-      "mechanical-electrical": "Elektromechanische Sirene",
-      "mechanical-motorized": "Motorbetriebene Sirene",
-      "mechanical-handoperated": "Handbetriebene Sirene",
-      "pneumatical-compressor": "Hochleistungssirene",
-      "pneumatical-blower": "Sirene mit Lüfter",
-      "typhoon": "Typhoon",
-      "unknown": "Unbekannt"
+      "E": "Elektronische Sirene",
+      "ME": "Elektromechanische Sirene",
+      "MM": "Motorbetriebene Sirene",
+      "MH": "Handbetriebene Sirene",
+      "PC": "Hochleistungssirene",
+      "PB": "Sirene mit Lüfter",
+      "T": "Typhoon",
+      "U": "Unbekannt"
     }
   },
   "ui": {
@@ -72,6 +72,48 @@
           "show_other": "Zeige {{count}} Standorte",
           "clear": "Filter zurücksetzen"
         }
+      }
+	},
+    "modals": {
+      "site": {
+        "editmode": "Änderungsmodus",
+        "tabs": {
+          "maps": "Google Maps",
+          "sirens": "Sirenen",
+          "photos": "Fotos",
+          "notes": "Anmerkungen",
+          "changes": "Änderungen"
+        },
+        "sirens": {
+          "actions": {
+            "edit": "Sirene bearbeiten",
+            "add": "Siren hinzufügen"
+          },
+          "edit": {
+            "type": "Sirenentyp",
+            "type-error": "Sie müssen einen Typ auswählen!",
+            "condition": "Sirenenzustand",
+            "condition-error": "Sie müssen einen Zustand auswählen!",
+            "description": "Beschreibung",
+            "tags": "Tags",
+            "tags-error": "Tags dürfen nur Buchstaben und Zahlen enthalten!",
+            "actions": {
+              "delete": "Sirene löschen",
+              "ok": "Änderungen speichern",
+              "cancel": "Abbrechen"
+            }
+          },
+          "delete": {
+            "confirm": "Wollen Sie die Sirene wirklich endgültig löschen?",
+            "actions": {
+              "ok": "Löschen",
+              "cancel": "Abbrechen"
+            }
+          }
+        },
+        "photos": {},
+        "notes": {},
+        "changes": {}
       }
     }
   }
