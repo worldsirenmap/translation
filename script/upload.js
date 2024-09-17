@@ -38,10 +38,11 @@ for (const language of languages) {
 
     const languageFiles = readdirSync(TRANSLATIONS_DIR + language, { withFileTypes: true })
         .filter(entry => entry.isFile() && entry.name.toLowerCase().endsWith('.json'))
+        .map(entry => entry.name)
 
-    for (file of languageFiles) {
-        console.log("Upload file '" + file.name + "' for language '" + language + "'")
-        await sftp.put(createReadStream(TRANSLATIONS_DIR + language + "/" + file.name), TRANSLATIONS_DIR + language + "/" + file.name, PUT_OPTIONS)
+    for (const file of languageFiles) {
+        console.log("Upload file '" + file + "' for language '" + language + "'")
+        await sftp.put(createReadStream(TRANSLATIONS_DIR + language + "/" + file), TRANSLATIONS_DIR + language + "/" + file, PUT_OPTIONS)
     }
 }
 
