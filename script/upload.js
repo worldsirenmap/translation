@@ -42,7 +42,7 @@ for (const language of languages) {
 
     for (const file of languageFiles) {
         console.log("Upload file '" + file + "' for language '" + language + "'")
-        await sftp.put(createReadStream(TRANSLATIONS_DIR + language + "/" + file), TRANSLATIONS_DIR + language + "/" + file, PUT_OPTIONS)
+        await sftp.put(createReadStream(TRANSLATIONS_DIR + language + "/" + file), TRANSLATIONS_REMOTE_PATH + language + "/" + file, PUT_OPTIONS)
     }
 }
 
