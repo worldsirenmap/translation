@@ -25,7 +25,7 @@ await sftp.mkdir(TRANSLATIONS_REMOTE_PATH, true)
 const currentDirs = await sftp.list(TRANSLATIONS_REMOTE_PATH)
 for (const dir of currentDirs) {
     console.log("Remove old data for language '" + dir.name + "'")
-    await sftp.rmdir(ICONS_REMOTE_PATH + dir.name, true)
+    await sftp.rmdir(TRANSLATIONS_REMOTE_PATH + dir.name, true)
 }
 
 console.log("Upload Translations")
