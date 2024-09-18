@@ -91,7 +91,7 @@
         },
 		"manufacturers": {
 			"model-count_one": "1 Typ",
-			"model-count_other": "{{count}} Typen",
+			"model-count_other": "{{count}} Typen"
 		}
       },
       "common": {
