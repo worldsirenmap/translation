@@ -88,7 +88,11 @@
           "manufacturer": "Suche Hersteller ...",
           "category": "Kategorie wählen",
           "origin": "Herkunft wählen"
-        }
+        },
+		"manufacturers": {
+			"model-count_one": "1 Typ",
+			"model-count_other": "{{count}} Typen",
+		}
       },
       "common": {
         "actions": {

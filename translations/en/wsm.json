@@ -88,7 +88,11 @@
           "manufacturer": "Search manufacturers ...",
           "category": "Select category",
           "origin": "Select origin"
-        }
+        },
+		"manufacturers": {
+			"model-count_one": "1 model",
+			"model-count_other": "{{count}} models",
+		}
       },
       "common": {
         "actions": {
