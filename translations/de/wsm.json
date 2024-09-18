@@ -45,12 +45,12 @@
         "nearby": "In der Nähe",
         "filter": "Filter"
       },
-	  "apps": {
-		  "filter": "Community Filter",
-		  "library": "Bibliothek",
-		  "activities": "Letzte Aktivitäten",
-		  "infos": "Information"
-	  },
+      "apps": {
+        "filter": "Community Filter",
+        "library": "Bibliothek",
+        "activities": "Letzte Aktivitäten",
+        "infos": "Information"
+      },
       "filter": {
         "region": {
           "header": "Region",
@@ -73,11 +73,30 @@
           "clear": "Filter zurücksetzen"
         }
       }
-	},
+    },
     "modals": {
+      "library": {
+        "title": "Bibliothek",
+        "tabs": {
+          "models": "Typen",
+          "manufacturers": "Hersteller",
+          "categories": "Kategorien",
+          "conditions": "Zustände"
+        },
+        "search": {
+          "model": "Suche Typen ...",
+          "manufacturer": "Suche Hersteller ...",
+          "category": "Kategorie wählen",
+          "origin": "Herkunft wählen"
+        }
+      },
+      "common": {
+        "actions": {
+          "editmode": "Änderungsmodus"
+        }
+      },
       "site": {
-		"title": "Sirenenstandort",
-        "editmode": "Änderungsmodus",
+        "title": "Sirenenstandort",
         "tabs": {
           "maps": "Google Maps",
           "sirens": "Sirenen",

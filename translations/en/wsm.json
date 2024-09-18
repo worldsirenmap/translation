@@ -75,9 +75,28 @@
       }
     },
     "modals": {
+      "library": {
+        "title": "Library",
+        "tabs": {
+          "models": "Models",
+          "manufacturers": "Manufacturers",
+          "categories": "Categories",
+          "conditions": "Conditions"
+        },
+        "search": {
+          "model": "Search models ...",
+          "manufacturer": "Search manufacturers ...",
+          "category": "Select category",
+          "origin": "Select origin"
+        }
+      },
+      "common": {
+        "actions": {
+          "editmode": "Änderungsmodus"
+        }
+      },
       "site": {
-		"title": "Siren site",
-        "editmode": "Edit mode",
+        "title": "Siren site",
         "tabs": {
           "maps": "Google Maps",
           "sirens": "Sirens",
