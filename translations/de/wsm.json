@@ -78,8 +78,8 @@
     "modals": {
 		"passwordreset": {
 			"title": "Passwort zurücksetzen",
-			"head": "Gib hier deinen Benutzernamen oder deine Email, sowie dein neues Passwort ein. Nach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 1h Zeit, dein neues Passwort zu bestätigen.",
-			"action": {
+			"head": "Gib hier deinen Benutzernamen oder deine Email, sowie dein neues Passwort ein.\n\nNach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 1h Zeit, dein neues Passwort zu bestätigen.",
+			"actions": {
 				"send": "Abschicken"
 			},
 			"form": {
@@ -89,9 +89,9 @@
 			}
 		},
 		"register": {
-			"title": "Registrieren",
-			"head": "Bitte gib hier die Daten für dein neues Benutzerkonto ein. Nach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 24h Zeit, deinen Account zu aktivieren.",
-			"action": {
+			"title": "Benutzerkonto erstellen",
+			"head": "Bitte gib hier die Daten für dein neues Benutzerkonto ein.\n\nNach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 24h Zeit, deinen Account zu aktivieren.",
+			"actions": {
 				"register": "Registrieren"
 			},
 			"form": {

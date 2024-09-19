@@ -78,7 +78,7 @@
     "modals": {
 		"passwordreset": {
 			"title": "Reset password",
-			"head": "Enter your user name or e-mail address and your new password here. After submitting you will receive an e-mail with a confirmation link. You have 1 hour to confirm your new password.",
+			"head": "Enter your user name or e-mail address and your new password here.\n\nAfter submitting you will receive an e-mail with a confirmation link. You have 1 hour to confirm your new password.",
 			"actions": {
 				"send": "Submit"
 			},
@@ -89,8 +89,8 @@
 			}
 		},		
 		"register": {
-			"title": "Register",
-			"head": "Please enter the details for your new user account here. After submitting you will receive a confirmation email with an activation link. You have 24 hours to activate your account.",
+			"title": "Create user account",
+			"head": "Please enter the details for your new user account here.\n\nAfter submitting you will receive a confirmation email with an activation link. You have 24 hours to activate your account.",
 			"actions": {
 				"register": "Register"
 			},
