@@ -83,7 +83,22 @@
         "title": "Benutzerprofil"
       },
       "help": {
-        "title": "Hilfe"
+        "title": "Hilfe und FAQ",
+        "head": "Die Benutzung der WorldSirenMap ist einfach, intuitive und selbsterklärend. Antworten zu häufigen Fragen findet ihr unten. Sollten weitere Fragen offen sein, wendet euch gerne direkt per Mail an:",
+        "entry01": {
+          "title": "Wie kann ich Standorte einfügen?",
+          "content": "Zuerst brauchst du einen Account. Nach dem Login kannst du zum Einfügen eines Standortes entweder den großen Plus-Button auf der Karte unten rechts anklicken und Koordinaten frei eingeben, oder auf der Karte an der gewünschten Stelle mit der rechten Maustaste klicken und dort einen Standort einfügen.",
+          "linkText": "Account anlegen"
+        },
+        "entry02": {
+          "title": "Wie kann ich Standorte bearbeiten?",
+          "content": "Zuerst brauchst du einen Account. Nach dem Login klicke einfach auf das Standort-Icon auf der Karte, welchen du bearbeiten möchtest. Es öffnen sich die Standort-Details. In der rechten unteren Ecke des Fensters kannst du den Änderungsmodus für diesen Standort einschalten.",
+          "linkText": "Account anlegen"
+        },
+        "entry03": {
+          "title": "Kann es mehrere Sirenen an einem Standort geben?",
+          "content": "Ja das ist möglich und gewünscht. Sirenen im Umkreis von 20m werden zu einem Standort zusammengefasst. Auch kann es an einem Standort mehrere Einträge zu ehemaligen und aktiven Sirenen geben."
+        }
       },
       "info": {
         "title": "WorldSirenMap",
@@ -114,8 +129,8 @@
           "origin": "Herkunft wählen"
         },
         "manufacturers": {
-            "model-count_one": "1 Typ",
-            "model-count_other": "{{count}} Typen"
+          "model-count_one": "1 Typ",
+          "model-count_other": "{{count}} Typen"
         }
       },
       "common": {
@@ -123,7 +138,7 @@
           "editmode": "Änderungsmodus"
         },
         "listdetailspanel": {
-            "select": "Wähle ein Eintrag aus der Liste"
+          "select": "Wähle ein Eintrag aus der Liste"
         }
       },
       "site": {

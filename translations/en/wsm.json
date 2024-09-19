@@ -83,7 +83,22 @@
         "title": "Userprofile"
       },
       "help": {
-        "title": "Help"
+        "title": "Help and FAQ",
+        "head": "Using the WorldSirenMap is simple, intuitive and self-explanatory. Answers to frequently asked questions can be found below. If you have any further questions, please contact us directly by e-mail:",
+        "entry01": {
+          "title": "How do I insert sites?",
+          "content": "First you need an account. After logging in, you can either click on the large plus button at the bottom right of the map to add a site and enter the coordinates freely, or right-click on the map at the desired location and add a site there.",
+          "linkText": "Create account"
+        },
+        "entry02": {
+          "title": "How can I edit sites?",
+          "content": "First you need an account. After logging in, simply click on the site icon on the map that you want to edit. The site details will open. In the bottom right-hand corner of the details window, you can activate the change mode for this site.",
+          "linkText": "Create account"
+        },
+        "entry03": {
+          "title": "Can there be several sirens at one site?",
+          "content": "Yes, this is possible and desired. Sirens within a radius of 20m are combined into one site. There can also be several entries for former and active sirens at one site."
+        }
       },
       "info": {
         "title": "WorldSirenMap",
