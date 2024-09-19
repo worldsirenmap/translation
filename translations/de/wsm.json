@@ -109,7 +109,7 @@
         },
         "info": {
           "alpha": "Die Version ist aktuell noch in der Entwicklung. Es kann zu Fehlern und Abstürzen der App kommen.",
-          "disclaimer": "Die WorldSirenMap ist ein privates Projekt zur Sammlung von Informationen zu Sirenenstandorten weltweit. Die Webseite ist für Jedermann kostenlos nutzbar und verfolgt keinerlei geschäftsmäßige Zwecke. Weiterhin beinhaltet die Seite keinerlei redaktionell-journalistische Inhalte und ist frei von politischen Ansichten."
+          "disclaimer": "Die WorldSirenMap ist ein privates Projekt zur Sammlung von Informationen zu Sirenenstandorten weltweit. Die Webseite ist für Jedermann kostenlos nutzbar und verfolgt keinerlei geschäftsmäßige oder werbemäßige Zwecke. Die Seite wird nicht gesponsort oder anderweitig von einem Unternehmen oder einer Organisation unterstützt. Weiterhin beinhaltet die Seite keinerlei redaktionell-journalistische Inhalte und ist frei von politischen Ansichten."
         },
         "contribute": {
           "head": "WorldSirenMap ist ein Community-Projekt und lebt davon, dass jeder aus der Community seinen Teil dazu beiträgt. Neben der Pflege von Standorten und der Bibliothek besteht auch die Möglichkeit, sich an der Entwicklung der Webanwendung zu beteiligen. Wir freuen uns über euren Beirag!",

@@ -77,7 +77,18 @@
     },
     "modals": {
       "login": {
-        "title": "Login"
+        "title": "Login",
+		"actions": {
+			"login": "Login",
+			"register": "Create new Account",
+			"reset": "Reset password"
+		},
+		"form": {
+			"token": "Username or e-mail",
+			"token-error": "Required!",
+			"password": "Password",
+			"password-error": "Required!"
+		}
       },
       "profile": {
         "title": "Userprofile"
@@ -109,7 +120,7 @@
         },
         "info": {
           "alpha": "The version is currently still under heavy development. Errors and crashes of the app may occur.",
-          "disclaimer": "The WorldSirenMap is a private project for the collection of information on siren locations worldwide. The website can be used by anyone free of charge and does not pursue any commercial purposes. Furthermore, the site does not contain any editorial or journalistic content and is free of political views."
+          "disclaimer": "The WorldSirenMap is a private project for the collection of information on siren locations worldwide. The website is free for anyone to use and is not for commercial or promotional purposes. The site is not sponsored or otherwise supported by any company or organization. Furthermore, the site does not contain any editorial or journalistic content and is free of political views."
         },
         "contribute": {
           "head": "WorldSirenMap is a community project and depends on everyone in the community doing their bit. In addition to maintaining sites and the library, you also have the opportunity to participate in the development of the web application. We look forward to your contribution!",
