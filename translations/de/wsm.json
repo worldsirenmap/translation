@@ -50,7 +50,7 @@
         "library": "Bibliothek",
         "activities": "Letzte Aktivitäten",
         "infos": "Information",
-        "help": "Hilfe"
+        "help": "Hilfe und FAQ"
       },
       "filter": {
         "region": {
@@ -106,6 +106,25 @@
           "info": "Informationen",
           "feedback": "Feedback",
           "contribute": "Unterstützen"
+        },
+        "contribute": {
+          "head": "WorldSirenMap ist ein Community-Projekt und lebt davon, dass jeder aus der Community seinen Teil dazu beiträgt. Neben der Pflege von Standorten und der Bibliothek besteht auch die Möglichkeit, sich an der Entwicklung der Webanwendung zu beteiligen. Wir freuen uns über euren Beirag!",
+          "translation": {
+            "title": "Übersetzungen",
+            "content": "Die Webanwendung ist mehrsprachig konzipiert. Neue Sprachdateien nehmen wir gerne entgegen und integrieren sie in die Anwendung. "
+          },
+          "icons": {
+            "title": "Sirenen Icons",
+            "content": "Für die WorldSirenMap wurde ein eigenes Projekt aufgesetzt, welches frei verfügbare und hochauflösende SVG-Icons bereitstellt. Sollten dort Icons für Sirenentypen fehlen, können diese gerne beigesteuert werden."
+          },
+          "frontend": {
+            "title": "Webanwendung",
+            "content": "Die Webanwendung wurde mittels React-Framework entwickelt und stetig verbessert. Jeder ist eingeladen, sich an der Entwicklung und Verbesserung zu beteiligen."
+          },
+          "bugfeatures": {
+            "title": "Bugs und Feature-Requests",
+            "content": "Hinweise auf Bugs und Ideen für neue Features nehmen wir gerne per Mail entgegen. Schreibt diese einfach an: "
+          }
         }
       },
       "filter": {

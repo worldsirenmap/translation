@@ -50,7 +50,7 @@
         "library": "Library",
         "activities": "Last activities",
         "infos": "Information",
-        "help": "Help"
+        "help": "Help and FAQ"
       },
       "filter": {
         "region": {
@@ -106,6 +106,25 @@
           "info": "Information",
           "feedback": "Feedback",
           "contribute": "Contribute"
+        },
+        "contribute": {
+          "head": "WorldSirenMap is a community project and depends on everyone in the community doing their bit. In addition to maintaining sites and the library, you also have the opportunity to participate in the development of the web application. We look forward to your contribution!",
+          "translation": {
+            "title": "Translations",
+            "content": "The web application is designed to be multilingual. We are happy to accept new language files and integrate them into the application."
+          },
+          "icons": {
+            "title": "Siren icons",
+            "content": "A separate project has been set up, which provides freely available and high-resolution SVG icons. If icons for siren types are missing there, you are welcome to contribute them."
+          },
+          "frontend": {
+            "title": "Web application",
+            "content": "The web application was developed using the React framework and is constantly being improved. Everyone is invited to participate in the development and improvement."
+          },
+          "bugfeatures": {
+            "title": "Bugs and feature requests",
+            "content": "We are happy to receive tips on bugs and ideas for new features by e-mail. Just send them to:"
+          }
         }
       },
       "filter": {
