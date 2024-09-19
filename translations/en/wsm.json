@@ -79,7 +79,7 @@
 		"passwordreset": {
 			"title": "Reset password",
 			"head": "Enter your user name or e-mail address and your new password here. After submitting you will receive an e-mail with a confirmation link. You have 1 hour to confirm your new password.",
-			"action": {
+			"actions": {
 				"send": "Submit"
 			},
 			"form": {
@@ -91,7 +91,7 @@
 		"register": {
 			"title": "Register",
 			"head": "Please enter the details for your new user account here. After submitting you will receive a confirmation email with an activation link. You have 24 hours to activate your account.",
-			"action": {
+			"actions": {
 				"register": "Register"
 			},
 			"form": {
