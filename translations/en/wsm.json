@@ -94,10 +94,10 @@
         }
       },
       "filter": {
-        "title": "Filter"
+        "title": "Community filters"
       },
       "activities": {
-        "title": "Activities"
+        "title": "Last Activities"
       },      
       "library": {
         "title": "Library",
