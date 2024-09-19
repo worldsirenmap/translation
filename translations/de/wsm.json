@@ -76,6 +76,31 @@
       }
     },
     "modals": {
+		"passwordreset": {
+			"title": "Passwort zurücksetzen",
+			"head": "Gib hier deinen Benutzernamen oder deine Email, sowie dein neues Passwort ein. Nach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 1h Zeit, dein neues Passwort zu bestätigen.",
+			"action": {
+				"send": "Abschicken"
+			},
+			"form": {
+				"token": "Benutzername oder Email",
+				"password1": "Neues Passwort",
+				"password2": "Neues Passwort wiederholen"
+			}
+		},
+		"register": {
+			"title": "Registrieren",
+			"head": "Bitte gib hier die Daten für dein neues Benutzerkonto ein. Nach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 24h Zeit, deinen Account zu aktivieren.",
+			"action": {
+				"register": "Registrieren"
+			},
+			"form": {
+				"username": "Benutzername",
+				"email": "Email Adresse",
+				"password1": "Passwort",
+				"password2": "Passwort wiederholen"
+			}
+		},
       "login": {
         "title": "Anmelden",
 		"actions": {
@@ -171,6 +196,9 @@
         "actions": {
           "editmode": "Änderungsmodus"
         },
+		"form": {
+			"required": "Pflichtfeld"
+		},
         "listdetailspanel": {
           "select": "Wähle ein Eintrag aus der Liste"
         }
@@ -191,9 +219,7 @@
           },
           "edit": {
             "type": "Sirenentyp",
-            "type-error": "Sie müssen einen Typ auswählen!",
             "condition": "Sirenenzustand",
-            "condition-error": "Sie müssen einen Zustand auswählen!",
             "description": "Beschreibung",
             "tags": "Tags",
             "tags-error": "Tags dürfen nur Buchstaben und Zahlen enthalten!",
