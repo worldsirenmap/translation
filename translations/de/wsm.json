@@ -49,7 +49,8 @@
         "filter": "Community Filter",
         "library": "Bibliothek",
         "activities": "Letzte Aktivitäten",
-        "infos": "Information"
+        "infos": "Information",
+        "help": "Hilfe"
       },
       "filter": {
         "region": {
@@ -75,6 +76,29 @@
       }
     },
     "modals": {
+      "login": {
+        "title": "Anmelden"
+      },
+      "profile": {
+        "title": "Benutzerprofil"
+      },
+      "help": {
+        "title": "Hilfe"
+      },
+      "info": {
+        "title": "WorldSirenMap",
+        "tabs": {
+          "info": "Informationen",
+          "feedback": "Feedback",
+          "contribute": "Unterstützen"
+        }
+      },
+      "filter": {
+        "title": "Filter"
+      },
+      "activities": {
+        "title": "Aktivitäten"
+      },
       "library": {
         "title": "Bibliothek",
         "tabs": {
@@ -89,14 +113,17 @@
           "category": "Kategorie wählen",
           "origin": "Herkunft wählen"
         },
-		"manufacturers": {
-			"model-count_one": "1 Typ",
-			"model-count_other": "{{count}} Typen"
-		}
+        "manufacturers": {
+            "model-count_one": "1 Typ",
+            "model-count_other": "{{count}} Typen"
+        }
       },
       "common": {
         "actions": {
           "editmode": "Änderungsmodus"
+        },
+        "listdetailspanel": {
+            "select": "Wähle ein Eintrag aus der Liste"
         }
       },
       "site": {
