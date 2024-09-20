@@ -34,12 +34,25 @@
     }
   },
   "ui": {
+    "widgets": {
+      "sidebar": {
+        "tooltip": "Open sidebar"
+      },
+      "addsite": {
+        "tooltip": "Add siren site",
+        "notauthorized": {
+          "title": "Please login",
+          "message": "You must be logged in to add siren sites."
+        }
+      }
+    },
     "sidebar": {
       "user": {
         "anonymous": "Anonymous",
         "profile": "Profile",
         "login": "Login",
-        "logout": "Logout"
+        "logout": "Logout",
+        "settings": "Settings"
       },
       "tabs": {
         "nearby": "Nearby",
@@ -50,7 +63,8 @@
         "library": "Library",
         "activities": "Last activities",
         "infos": "Information",
-        "help": "Help and FAQ"
+        "help": "Help and FAQ",
+        "statistics": "Statistics"
       },
       "filter": {
         "region": {
@@ -76,44 +90,44 @@
       }
     },
     "modals": {
-		"passwordreset": {
-			"title": "Reset password",
-			"head": "Enter your user name or e-mail address and your new password here.\n\nAfter submitting you will receive an e-mail with a confirmation link. You have 1 hour to confirm your new password.",
-			"actions": {
-				"send": "Submit"
-			},
-			"form": {
-				"token": "Username or e-mail",
-				"password1": "New password",
-				"password2": "Repeat new password"
-			}
-		},		
-		"register": {
-			"title": "Create user account",
-			"head": "Please enter the details for your new user account here.\n\nAfter submitting you will receive a confirmation email with an activation link. You have 24 hours to activate your account.",
-			"actions": {
-				"register": "Register"
-			},
-			"form": {
-				"username": "Username",
-				"email": "E-mail address",
-				"password1": "Password",
-				"password2": "Repeat password"
-			}
-		},		
+        "passwordreset": {
+            "title": "Reset password",
+            "head": "Enter your user name or e-mail address and your new password here.\n\nAfter submitting you will receive an e-mail with a confirmation link. You have 1 hour to confirm your new password.",
+            "actions": {
+                "send": "Submit"
+            },
+            "form": {
+                "token": "Username or e-mail",
+                "password1": "New password",
+                "password2": "Repeat new password"
+            }
+        },        
+        "register": {
+            "title": "Create user account",
+            "head": "Please enter the details for your new user account here.\n\nAfter submitting you will receive a confirmation email with an activation link. You have 24 hours to activate your account.",
+            "actions": {
+                "register": "Submit"
+            },
+            "form": {
+                "username": "Username",
+                "email": "E-mail address",
+                "password1": "Password",
+                "password2": "Repeat password"
+            }
+        },        
       "login": {
         "title": "Login",
-		"actions": {
-			"login": "Login",
-			"register": "Create new Account",
-			"reset": "Reset password"
-		},
-		"form": {
-			"token": "Username or e-mail",
-			"token-error": "Required!",
-			"password": "Password",
-			"password-error": "Required!"
-		}
+        "actions": {
+            "login": "Login",
+            "register": "Create new Account",
+            "reset": "Reset password"
+        },
+        "form": {
+            "token": "Username or e-mail",
+            "token-error": "Required!",
+            "password": "Password",
+            "password-error": "Required!"
+        }
       },
       "profile": {
         "title": "Userprofile"
@@ -144,7 +158,7 @@
           "contribute": "Contribute"
         },
         "info": {
-          "alpha": "The version is currently still under heavy development. Errors and crashes of the app may occur.",
+          "alpha": "The version is currently still under heavy development.\nErrors and crashes of the app may occur.",
           "disclaimer": "The WorldSirenMap is a private project for the collection of information on siren locations worldwide. The website is free for anyone to use and is not for commercial or promotional purposes. The site is not sponsored or otherwise supported by any company or organization. Furthermore, the site does not contain any editorial or journalistic content and is free of political views."
         },
         "contribute": {
@@ -196,9 +210,9 @@
         "actions": {
           "editmode": "Edit mode"
         },
-		"form": {
-			"required": "Required"
-		},		
+        "form": {
+            "required": "Required"
+        },        
         "listdetailspanel": {
             "select": "Select an item from the list"
         }

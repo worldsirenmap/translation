@@ -34,12 +34,25 @@
     }
   },
   "ui": {
+    "widgets": {
+      "sidebar": {
+        "tooltip": "Seitenleiste öffnen"
+      },
+      "addsite": {
+        "tooltip": "Sirenenstandort hinzufügen",
+        "notauthorized": {
+          "title": "Bitte anmelden",
+          "message": "Du musst angemeldet sein, um Standorte hinzufügen zu können."
+        }
+      }
+    },
     "sidebar": {
       "user": {
         "anonymous": "Anonym",
         "profile": "Profil",
         "login": "Anmelden",
-        "logout": "Abmelden"
+        "logout": "Abmelden",
+        "settings": "Einstellungen"
       },
       "tabs": {
         "nearby": "In der Nähe",
@@ -50,7 +63,8 @@
         "library": "Bibliothek",
         "activities": "Letzte Aktivitäten",
         "infos": "Information",
-        "help": "Hilfe und FAQ"
+        "help": "Hilfe und FAQ",
+        "statistics": "Statistiken"
       },
       "filter": {
         "region": {
@@ -76,44 +90,44 @@
       }
     },
     "modals": {
-		"passwordreset": {
-			"title": "Passwort zurücksetzen",
-			"head": "Gib hier deinen Benutzernamen oder deine Email, sowie dein neues Passwort ein.\n\nNach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 1h Zeit, dein neues Passwort zu bestätigen.",
-			"actions": {
-				"send": "Abschicken"
-			},
-			"form": {
-				"token": "Benutzername oder Email",
-				"password1": "Neues Passwort",
-				"password2": "Neues Passwort wiederholen"
-			}
-		},
-		"register": {
-			"title": "Benutzerkonto erstellen",
-			"head": "Bitte gib hier die Daten für dein neues Benutzerkonto ein.\n\nNach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 24h Zeit, deinen Account zu aktivieren.",
-			"actions": {
-				"register": "Registrieren"
-			},
-			"form": {
-				"username": "Benutzername",
-				"email": "Email Adresse",
-				"password1": "Passwort",
-				"password2": "Passwort wiederholen"
-			}
-		},
+        "passwordreset": {
+            "title": "Passwort zurücksetzen",
+            "head": "Gib hier deinen Benutzernamen oder deine Email, sowie dein neues Passwort ein.\n\nNach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 1h Zeit, dein neues Passwort zu bestätigen.",
+            "actions": {
+                "send": "Abschicken"
+            },
+            "form": {
+                "token": "Benutzername oder Email",
+                "password1": "Neues Passwort",
+                "password2": "Neues Passwort wiederholen"
+            }
+        },
+        "register": {
+            "title": "Benutzerkonto erstellen",
+            "head": "Bitte gib hier die Daten für dein neues Benutzerkonto ein.\n\nNach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 24h Zeit, deinen Account zu aktivieren.",
+            "actions": {
+                "register": "Abschicken"
+            },
+            "form": {
+                "username": "Benutzername",
+                "email": "Email Adresse",
+                "password1": "Passwort",
+                "password2": "Passwort wiederholen"
+            }
+        },
       "login": {
         "title": "Anmelden",
-		"actions": {
-			"login": "Anmelden",
-			"register": "Benutzerprofil anlegen",
-			"reset": "Passwort zurücksetzen"
-		},
-		"form": {
-			"token": "Benutzername oder Email",
-			"token-error": "Pflichtfeld!",
-			"password": "Passwort",
-			"password-error": "Pflichtfeld!"
-		}
+        "actions": {
+            "login": "Anmelden",
+            "register": "Benutzerprofil anlegen",
+            "reset": "Passwort zurücksetzen"
+        },
+        "form": {
+            "token": "Benutzername oder Email",
+            "token-error": "Pflichtfeld!",
+            "password": "Passwort",
+            "password-error": "Pflichtfeld!"
+        }
       },
       "profile": {
         "title": "Benutzerprofil"
@@ -144,7 +158,7 @@
           "contribute": "Unterstützen"
         },
         "info": {
-          "alpha": "Die Version ist aktuell noch in der Entwicklung. Es kann zu Fehlern und Abstürzen der App kommen.",
+          "alpha": "Die Version ist aktuell noch in der Entwicklung.\nEs kann zu Fehlern und Abstürzen der App kommen.",
           "disclaimer": "Die WorldSirenMap ist ein privates Projekt zur Sammlung von Informationen zu Sirenenstandorten weltweit. Die Webseite ist für Jedermann kostenlos nutzbar und verfolgt keinerlei geschäftsmäßige oder werbemäßige Zwecke. Die Seite wird nicht gesponsort oder anderweitig von einem Unternehmen oder einer Organisation unterstützt. Weiterhin beinhaltet die Seite keinerlei redaktionell-journalistische Inhalte und ist frei von politischen Ansichten."
         },
         "contribute": {
@@ -196,9 +210,9 @@
         "actions": {
           "editmode": "Änderungsmodus"
         },
-		"form": {
-			"required": "Pflichtfeld"
-		},
+        "form": {
+            "required": "Pflichtfeld"
+        },
         "listdetailspanel": {
           "select": "Wähle ein Eintrag aus der Liste"
         }
