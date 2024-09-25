@@ -90,6 +90,28 @@
       }
     },
     "modals": {
+		"statistics": {
+			"title": "Statistics",
+			"tabs": {
+				"sirens": "Sirens",
+				"users": "Users",
+				"models": "Models",
+				"manufacturers": "Manufacturers"
+			},
+			"sirens": {
+				"cards": {
+					"bymonth": "Siren count (added and total) by month",
+					"bycategory": "Siren count by category",
+					"bycondition": "Siren count by condition"
+				}
+			},
+			"users": {
+				"table": {
+					"username": "Username",
+					"sirencount": "Added sirens"
+				}
+			}
+		},		
         "passwordreset": {
             "title": "Reset password",
             "head": "Enter your user name or e-mail address and your new password here.\n\nAfter submitting you will receive an e-mail with a confirmation link. You have 1 hour to confirm your new password.",
