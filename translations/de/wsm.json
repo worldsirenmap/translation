@@ -105,17 +105,23 @@
 						"added": "Sirenen hinzugefügt",
 						"total": "Sirenen gesamt"
 					},
-					"bycategory": "Anzahl Sirenen nach Kategorie",
-					"bycondition": "Anzahl Sirenen nach Zustand"
+				"bycategory": {
+					"title": "Anzahl Sirenen nach Kategorie"
+				},
+				"bycondition": {
+					"title": "Anzahl Sirenen nach Zustand"
 				}
 			},
 			"users": {
-				"table": {
-					"username": "Benutzername",
-					"sirencount": "Hinzugefügte Sirenen"
+				"list": {
+					"title": "Benutzerliste",
+					"table": {
+						"username": "Benutzername",
+						"sirencount": "Hinzugefügte Sirenen"
+					}
 				}
 			}
-		},
+		},		
         "passwordreset": {
             "title": "Passwort zurücksetzen",
             "head": "Gib hier deinen Benutzernamen oder deine Email, sowie dein neues Passwort ein.\n\nNach dem Abschicken bekommst du eine E-Mail mit einem Bestätigungslink. Du hast 1h Zeit, dein neues Passwort zu bestätigen.",

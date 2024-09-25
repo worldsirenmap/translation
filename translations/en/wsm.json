@@ -99,20 +99,25 @@
 				"manufacturers": "Manufacturers"
 			},
 			"sirens": {
-				"cards": {
-					"bymonth": {
-						"title": "Siren count (added and total) by month",
-						"added": "Sirens added",
-						"total": "Sirens total"
-					},
-					"bycategory": "Siren count by category",
-					"bycondition": "Siren count by condition"
+				"bymonth": {
+					"title": "Siren count (added and total) by month",
+					"added": "Sirens added",
+					"total": "Sirens total"
+				},
+				"bycategory": {
+					"title": "Siren count by category"
+				},
+				"bycondition": {
+					"title": "Siren count by condition"
 				}
 			},
 			"users": {
-				"table": {
-					"username": "Username",
-					"sirencount": "Added sirens"
+				"list": {
+					"title": "User list",
+					"table": {
+						"username": "Username",
+						"sirencount": "Added sirens"
+					}
 				}
 			}
 		},		
