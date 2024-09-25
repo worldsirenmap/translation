@@ -100,7 +100,11 @@
 			},
 			"sirens": {
 				"cards": {
-					"bymonth": "Siren count (added and total) by month",
+					"bymonth": {
+						"title": "Siren count (added and total) by month",
+						"added": "Sirens added",
+						"total": "Sirens total"
+					},
 					"bycategory": "Siren count by category",
 					"bycondition": "Siren count by condition"
 				}

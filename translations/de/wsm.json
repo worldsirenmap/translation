@@ -100,7 +100,11 @@
 			},
 			"sirens": {
 				"cards": {
-					"bymonth": "Anzahl Sirenen (hinzugefügt und gesamt) nach Monat",
+					"bymonth": {
+						"title": "Anzahl Sirenen (hinzugefügt und gesamt) nach Monat",
+						"added": "Sirenen hinzugefügt",
+						"total": "Sirenen gesamt"
+					},
 					"bycategory": "Anzahl Sirenen nach Kategorie",
 					"bycondition": "Anzahl Sirenen nach Zustand"
 				}
