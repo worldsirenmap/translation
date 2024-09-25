@@ -99,12 +99,11 @@
 				"manufacturers": "Hersteller"
 			},
 			"sirens": {
-				"cards": {
-					"bymonth": {
-						"title": "Anzahl Sirenen (hinzugefügt und gesamt) nach Monat",
-						"added": "Sirenen hinzugefügt",
-						"total": "Sirenen gesamt"
-					},
+				"bymonth": {
+					"title": "Anzahl Sirenen (hinzugefügt und gesamt) nach Monat",
+					"added": "Sirenen hinzugefügt",
+					"total": "Sirenen gesamt"
+				},
 				"bycategory": {
 					"title": "Anzahl Sirenen nach Kategorie"
 				},
