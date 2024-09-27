@@ -131,7 +131,7 @@
 				"list": {
 					"title": "Anzahl Sirenen nach Typ",
 					"table": {
-						"model": "Typ",
+						"manufacturer": "Typ",
 						"sirencount": "Anzahl Sirenen"
 					}
 				}				

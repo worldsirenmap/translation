@@ -140,7 +140,7 @@
 				"list": {
 					"title": "Siren count by manufacturer",
 					"table": {
-						"model": "Manufacturer",
+						"manufacturer": "Manufacturer",
 						"sirencount": "Sirens total"
 					}
 				}				
