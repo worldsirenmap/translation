@@ -8,37 +8,45 @@
 		}
 	},
     "model": {
-      "unknown-e": "Electronic siren",
-      "unknown-me": "Electromechanic siren",
-      "unknown-mm": "Motorized siren",
-      "unknown-mh": "Hand operated siren",
-      "unknown-pc": "Compressed air driven siren",
-      "unknown-pb": "Blower driven siren",
-      "unknown-t": "Typhoon",
-      "unknown-u": "Unknown siren"
+		"unknown": {
+			"electronic": "Electronic siren",
+			"mechanic": "Mechanic siren",
+			"supercharged": "Supercharged siren",
+			"pneumatic": "Pneumatic siren",
+			"horn": "Signal horn",
+			"unknown": "Unknown siren"
+		}
     },
     "manufacturer": {
       "unknown": "Unknown manufacturer",
       "multiple": "Multiple manufacturer"
     },
     "condition": {
-      "A": "Active",
-      "D": "Defect",
-      "I": "Inactive",
-      "P": "Planned",
-      "R": "Removed",
-      "U": "Unknown"
+      "ACTIVE": "Active",
+      "DEFECT": "Defect",
+      "INACTIVE": "Inactive",
+      "PLANNED": "Planned",
+      "REMOVED": "Removed",
+      "UNKNOWN": "Unknown"
     },
     "category": {
-      "E": "Electronic siren",
-      "ME": "Electromechanic siren",
-      "MM": "Motorized siren",
-      "MH": "Hand operated siren",
-      "PC": "Compressed air driven siren",
-      "PB": "Blower driven siren",
-      "T": "Typhoon",
-      "U": "Unknown siren"
-    }
+      "ELECTRONIC": "Electronic siren",
+      "MECHANIC": "Mechanic siren",
+      "SUPERCHARGED": "Supercharged siren",
+      "PNEUMATIK": "Pneumatic siren",
+      "HORN": "Signal horn",
+      "UNKNOWN": "Unknown"
+    },
+	"powersource": {
+		"MAINS": "Mains operated",
+		"BATTERY": "Battery operated",
+		"ENGINE": "Engine operated",
+		"AIRTANK": "Air tank operated",
+		"MANUAL": "Manual operated",
+		"OTHER": "Other",
+		"UNKNOWN": "Unknown"
+	},
+	"rotational": "Rotating siren"
   },
   "ui": {
     "widgets": {

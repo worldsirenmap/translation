@@ -8,37 +8,45 @@
 		}
 	},
     "model": {
-      "unknown-e": "Elektronische Sirene",
-      "unknown-me": "Elektromechanische Sirene",
-      "unknown-mm": "Motorbetriebene Sirene",
-      "unknown-mh": "Handbetriebene Sirene",
-      "unknown-pc": "Hochleistungssirene",
-      "unknown-pb": "Sirene mit Lüfter",
-      "unknown-t": "Typhoon",
-      "unknown-u": "Sirene"
+		"unknown": {
+			"electronic": "Electronische Sirene",
+			"mechanic": "Mechanische Sirene",
+			"supercharged": "Fremdbelüftete Sirene",
+			"pneumatic": "Hochleistungssirene",
+			"horn": "Signalhorn",
+			"unknown": "Unbekannte Sirene"
+		}
     },
     "manufacturer": {
       "unknown": "Unbekannter Hersteller",
       "multiple": "Mehrere Hersteller"
     },
     "condition": {
-      "A": "Aktiv",
-      "D": "Defekt",
-      "I": "Inaktiv",
-      "P": "Geplant",
-      "R": "Demontiert",
-      "U": "Unbekannt"
+      "ACTIVE": "Aktiv",
+      "DEFECT": "Defekt",
+      "INACTIVE": "Inaktiv",
+      "PLANNED": "Geplant",
+      "REMOVED": "Demontiert",
+      "UKNOWN": "Unbekannt"
     },
     "category": {
-      "E": "Elektronische Sirene",
-      "ME": "Elektromechanische Sirene",
-      "MM": "Motorbetriebene Sirene",
-      "MH": "Handbetriebene Sirene",
-      "PC": "Hochleistungssirene",
-      "PB": "Sirene mit Lüfter",
-      "T": "Typhoon",
-      "U": "Unbekannt"
-    }
+      "ELECTRONIC": "Elektronische Sirene",
+      "MECHANIC": "Mechanische Sirene",
+      "SUPERCHARGED": "Fremdbelüftete Sirene",
+      "PNEUMATIK": "Hochleistungssirene",
+      "HORN": "Signalhorn",
+      "UNKNOWN": "Unbekannt"
+    },
+	"powersource": {
+		"MAINS": "Netzbetrieben",
+		"BATTERY": "Batteriebetrieben",
+		"ENGINE": "Verbrennungsmotor",
+		"AIRTANK": "Druckluftflasche",
+		"MANUAL": "Handbetrieben",
+		"OTHER": "Andere",
+		"UNKNOWN": "Unbekannt"
+	},
+	"rotational": "Rotierende Sirene"
   },
   "ui": {
     "widgets": {
