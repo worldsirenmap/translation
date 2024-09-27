@@ -126,6 +126,15 @@
 						"sirencount": "Added sirens"
 					}
 				}
+			},
+			"models": {
+				"list": {
+					"title": "List of siren models",
+					"table": {
+						"model": "Model",
+						"sirencount": "Sirens total"
+					}
+				}				
 			}
 		},		
         "passwordreset": {

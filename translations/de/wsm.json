@@ -123,9 +123,18 @@
 					"title": "Benutzerliste",
 					"table": {
 						"username": "Benutzername",
-						"sirencount": "Hinzugefügte Sirenen"
+						"sirencount": "Anzahl Sirenen"
 					}
 				}
+			},
+			"models": {
+				"list": {
+					"title": "Liste der Sirenentypen",
+					"table": {
+						"model": "Sirenentyp",
+						"sirencount": "Anzahl Sirenen"
+					}
+				}				
 			}
 		},		
         "passwordreset": {
