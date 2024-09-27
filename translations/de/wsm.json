@@ -1,14 +1,21 @@
 {
   "data": {
+	"change": {
+		"siren": {
+			"created": "Sirene hinzugefügt",
+			"updated": "Daten der Sirene aktualisiert",
+			"deleted": "Sirene gelöscht"
+		}
+	},
     "model": {
-      "unknown-E": "Elektronische Sirene",
-      "unknown-ME": "Elektromechanische Sirene",
-      "unknown-MM": "Motorbetriebene Sirene",
-      "unknown-MH": "Handbetriebene Sirene",
-      "unknown-PC": "Hochleistungssirene",
-      "unknown-PB": "Sirene mit Lüfter",
-      "unknown-T": "Typhoon",
-      "unknown-U": "Sirene"
+      "unknown-e": "Elektronische Sirene",
+      "unknown-me": "Elektromechanische Sirene",
+      "unknown-mm": "Motorbetriebene Sirene",
+      "unknown-mh": "Handbetriebene Sirene",
+      "unknown-pc": "Hochleistungssirene",
+      "unknown-pb": "Sirene mit Lüfter",
+      "unknown-t": "Typhoon",
+      "unknown-u": "Sirene"
     },
     "manufacturer": {
       "unknown": "Unbekannter Hersteller",

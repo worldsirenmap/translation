@@ -1,14 +1,21 @@
 {
   "data": {
+	"change": {
+		"siren": {
+			"created": "Siren added",
+			"updated": "Data of siren updated",
+			"deleted": "Siren deleted"
+		}
+	},
     "model": {
-      "unknown-E": "Electronic siren",
-      "unknown-ME": "Electromechanic siren",
-      "unknown-MM": "Motorized siren",
-      "unknown-NH": "Hand operated siren",
-      "unknown-PC": "Compressed air driven siren",
-      "unknown-PB": "Blower driven siren",
-      "unknown-T": "Typhoon",
-      "unknown-U": "Unknown siren"
+      "unknown-e": "Electronic siren",
+      "unknown-me": "Electromechanic siren",
+      "unknown-mm": "Motorized siren",
+      "unknown-mh": "Hand operated siren",
+      "unknown-pc": "Compressed air driven siren",
+      "unknown-pb": "Blower driven siren",
+      "unknown-t": "Typhoon",
+      "unknown-u": "Unknown siren"
     },
     "manufacturer": {
       "unknown": "Unknown manufacturer",
