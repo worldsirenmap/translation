@@ -33,7 +33,7 @@
       "ELECTRONIC": "Elektronische Sirene",
       "MECHANIC": "Mechanische Sirene",
       "SUPERCHARGED": "Fremdbelüftete Sirene",
-      "PNEUMATIK": "Hochleistungssirene",
+      "PNEUMATIC": "Hochleistungssirene",
       "HORN": "Signalhorn",
       "UNKNOWN": "Unbekannt"
     },

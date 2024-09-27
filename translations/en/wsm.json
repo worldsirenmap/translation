@@ -33,7 +33,7 @@
       "ELECTRONIC": "Electronic siren",
       "MECHANIC": "Mechanic siren",
       "SUPERCHARGED": "Supercharged siren",
-      "PNEUMATIK": "Pneumatic siren",
+      "PNEUMATIC": "Pneumatic siren",
       "HORN": "Signal horn",
       "UNKNOWN": "Unknown"
     },
