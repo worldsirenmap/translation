@@ -120,18 +120,27 @@
 			},
 			"users": {
 				"list": {
-					"title": "User list",
+					"title": "Siren count by user",
 					"table": {
 						"username": "Username",
-						"sirencount": "Added sirens"
+						"sirencount": "Sirens total"
 					}
 				}
 			},
 			"models": {
 				"list": {
-					"title": "List of siren models",
+					"title": "Siren count by model",
 					"table": {
 						"model": "Model",
+						"sirencount": "Sirens total"
+					}
+				}				
+			},
+			"manufacturers": {
+				"list": {
+					"title": "Siren count by manufacturer",
+					"table": {
+						"model": "Manufacturer",
 						"sirencount": "Sirens total"
 					}
 				}				

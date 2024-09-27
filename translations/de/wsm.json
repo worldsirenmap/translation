@@ -120,7 +120,7 @@
 			},
 			"users": {
 				"list": {
-					"title": "Benutzerliste",
+					"title": "Anzahl Sirenen nach Benutzer",
 					"table": {
 						"username": "Benutzername",
 						"sirencount": "Anzahl Sirenen"
@@ -129,9 +129,18 @@
 			},
 			"models": {
 				"list": {
-					"title": "Liste der Sirenentypen",
+					"title": "Anzahl Sirenen nach Typ",
 					"table": {
-						"model": "Sirenentyp",
+						"model": "Typ",
+						"sirencount": "Anzahl Sirenen"
+					}
+				}				
+			},
+			"manufacturers": {
+				"list": {
+					"title": "Anzahl Sirenen nach Hersteller",
+					"table": {
+						"model": "Hersteller",
 						"sirencount": "Anzahl Sirenen"
 					}
 				}				
