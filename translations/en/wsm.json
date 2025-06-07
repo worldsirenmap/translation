@@ -43,7 +43,7 @@
 		"ENGINE": "Engine operated",
 		"AIRTANK": "Air tank operated",
 		"MANUAL": "Manual operated",
-		"OTHER": "Other",
+		"OTHER": "Other power source",
 		"UNKNOWN": "Unknown"
 	},
 	"rotational": "Rotating siren"

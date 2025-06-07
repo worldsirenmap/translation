@@ -43,7 +43,7 @@
 		"ENGINE": "Verbrennungsmotor",
 		"AIRTANK": "Druckluftflasche",
 		"MANUAL": "Handbetrieben",
-		"OTHER": "Andere",
+		"OTHER": "Andere Energieversorgung",
 		"UNKNOWN": "Unbekannt"
 	},
 	"rotational": "Rotierende Sirene"
